@@ -13,7 +13,6 @@ services:
       - MYSQL_DATABASE=storefront
       - MYSQL_USER=admin
       - MYSQL_PASSWORD=admin_admin
-      - MYSQL_ROOT_HOST=%
     volumes:
       - "./db/:/var/lib/mysql"
 
